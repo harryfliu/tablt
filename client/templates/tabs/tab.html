@@ -1,0 +1,11 @@
+<template name="tab">
+  <div class="tab">
+    <div class="tab-content">
+      <h1>{{title}}</h1>
+      <!--<p>{{content}}</p>-->
+      {{#each units}}
+      	{{> unit}}
+	  {{/each}}
+    </div>
+  </div>
+</template>
